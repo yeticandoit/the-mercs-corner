@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="The Merc's Corner — a chaotic, fourth-wall-breaking comic experience."
+    >
+
+    <title>The Merc's Corner</title>
+
+    <!-- Comic-style fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:wght@400;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+
+    <!-- =========================================
+         COMIC BACKGROUND
+    ========================================== -->
+
+    <div class="comic-background">
+
+        <div class="halftone"></div>
+
+        <div class="ink-splatter splatter-one"></div>
+        <div class="ink-splatter splatter-two"></div>
+
+    </div>
+
+
+    <!-- =========================================
+         HEADER
+    ========================================== -->
+
+    <header class="site-header">
+
+        <div class="logo">
+
+            <span>THE</span>
+
+            <strong>MERC'S</strong>
+
+            <span>CORNER</span>
+
+        </div>
+
+
+        <nav class="main-nav">
+
+            <a href="#home">HOME</a>
+
+            <a href="#chimichangas">CHIMICHANGAS</a>
+
+            <a href="#bad-ideas">MY BAD IDEAS</a>
+
+            <a href="#fourth-wall">FOURTH WALL</a>
+
+            <a href="#gallery">GALLERY</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =========================================
+         COMIC MARQUEE
+    ========================================== -->
+
+    <div class="comic-marquee">
+
+        <div class="marquee-text">
+
+            STILL A BETTER WEBSITE THAN "ORIGINS."
+
+            &nbsp;&nbsp;&nbsp; ★ &nbsp;&nbsp;&nbsp;
+
+            STILL A BETTER WEBSITE THAN "ORIGINS."
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================
+         HERO / MAIN COMIC PAGE
+    ========================================== -->
+
+    <main id="home" class="comic-page">
+
+
+        <!-- =====================================
+             HERO PANEL
+        ====================================== -->
+
+        <section class="hero-panel comic-panel">
+
+            <div class="comic-caption">
+                ISSUE #001
+            </div>
+
+
+            <h1>
+                WELCOME,
+                <span>TRUE BELIEVERS...</span>
+                & STALKERS!
+            </h1>
+
+
+            <p class="hero-warning">
+                SERIOUSLY.
+                <br>
+                DON'T CLICK ANYTHING.
+            </p>
+
+
+            <!-- Deadpool-inspired character area -->
+            <div class="hero-character">
+
+                <!-- Replace with your licensed/owned artwork later -->
+                <div class="character-placeholder">
+
+                    <span>THE</span>
+                    <strong>MERC</strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- Red comic speech box -->
+
+            <button
+                class="red-gag-box"
+                id="gagBox"
+                type="button"
+            >
+
+                <strong>
+                    NO, I'M NOT HERE.
+                </strong>
+
+                <span>
+                    STOP LOOKING.
+                </span>
+
+                <span>
+                    I'M ON VACATION.
+                </span>
+
+                <small>
+                    (He's definitely not hiding behind this box.)
+                </small>
+
+            </button>
+
+
+            <!-- Hidden Easter egg -->
+
+            <div
+                class="hidden-unicorn"
+                id="unicorn"
+            >
+                🦄
+
+                <span>
+                    YOU FOUND ME.
+                </span>
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             SIDEBAR
+        ====================================== -->
+
+        <aside class="sidebar">
+
+
+            <!-- SARCASM -->
+
+            <section class="comic-panel sarcasm-panel">
+
+                <div class="comic-caption">
+                    SYSTEM STATUS
+                </div>
+
+
+                <h2>
+                    ACTIVATE
+                    <br>
+                    SARCASM
+                </h2>
+
+
+                <button
+                    id="sarcasmToggle"
+                    class="sarcasm-toggle"
+                    type="button"
+                    aria-pressed="true"
+                >
+
+                    <span class="toggle-knob">
+                        ON
+                    </span>
+
+                </button>
+
+
+                <p>
+                    SARCASM IS STRUCTURAL.
+                </p>
+
+            </section>
+
+
+            <!-- SAFETY -->
+
+            <section class="comic-panel safety-panel">
+
+                <div class="comic-caption">
+                    SAFETY REPORT
+                </div>
+
+
+                <div class="safety-symbol">
+                    ☠
+                </div>
+
+
+                <h2>
+                    100% UNSAFE
+                </h2>
+
+
+                <p>
+                    PROCEED WITH CAUTION.
+                </p>
+
+
+                <div class="family-warning">
+                    FAMILY FRIENDLY
+                    <strong>✕</strong>
+                </div>
+
+            </section>
+
+        </aside>
+
+
+        <!-- =====================================
+             STATUS METERS
+        ====================================== -->
+
+        <section class="status-panel">
+
+
+            <div
+                class="status-box"
+                id="chimichangaMeter"
+            >
+
+                <span class="status-icon">
+                    🌯
+                </span>
+
+                <span>
+                    CHIMICHANGA
+                </span>
+
+                <strong>
+                    00
+                </strong>
+
+            </div>
+
+
+            <div
+                class="status-box"
+                id="unicornMeter"
+            >
+
+                <span class="status-icon">
+                    🦄
+                </span>
+
+                <span>
+                    UNICORN HYPE
+                </span>
+
+                <strong>
+                    00%
+                </strong>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             FOURTH WALL
+        ====================================== -->
+
+        <section
+            id="fourth-wall"
+            class="fourth-wall-panel comic-panel"
+        >
+
+            <div class="comic-caption">
+                WARNING
+            </div>
+
+
+            <h2>
+                FOURTH WALL
+            </h2>
+
+
+            <p>
+                You probably shouldn't click this.
+            </p>
+
+
+            <button id="fourthWallButton">
+                BREAK IT
+            </button>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- =========================================
+         FAKE ERROR
+    ========================================== -->
+
+    <div
+        id="notification"
+        class="notification"
+        aria-hidden="true"
+    >
+
+        <div class="notification-box">
+
+            <button
+                id="notificationClose"
+                class="notification-close"
+                type="button"
+            >
+                ×
+            </button>
+
+
+            <div class="error-title">
+                ERROR
+            </div>
+
+
+            <p id="notificationMessage">
+                Feature cannot be disabled.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
+    <footer class="site-footer">
+
+        <p>
+            © 2026 WE DON'T OWN ANYTHING.
+            DON'T SUE US, WE'RE BROKE.
+        </p>
+
+
+        <p>
+            THIS WEBSITE MAY CONTAIN
+            POOR DECISIONS.
+        </p>
+
+    </footer>
+
+
+    <!-- =========================================
+         JAVASCRIPT
+    ========================================== -->
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
